@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-atnl-)_)z-egdc1aucq0jfkn8ih^4f!ceh9a$3yj*@j70=9s6d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'upgraded-space-adventure-65qrwpvj6phrxvj-8000.app.github.dev']
 
 
 # Application definition
