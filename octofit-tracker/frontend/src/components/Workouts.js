@@ -22,7 +22,7 @@ function Workouts() {
         </thead>
         <tbody>
           {workouts.map(workout => (
-            <tr key={workout._id}>
+            <tr key={workout.id}>
               <td>{workout.name}</td>
               <td>{workout.description}</td>
             </tr>

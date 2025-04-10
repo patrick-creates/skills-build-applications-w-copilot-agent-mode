@@ -22,7 +22,7 @@ function Users() {
         </thead>
         <tbody>
           {users.map(user => (
-            <tr key={user._id}>
+            <tr key={user.id}>
               <td>{user.username}</td>
               <td>{user.email}</td>
             </tr>

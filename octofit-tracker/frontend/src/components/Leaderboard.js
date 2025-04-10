@@ -22,7 +22,7 @@ function Leaderboard() {
         </thead>
         <tbody>
           {leaderboard.map(entry => (
-            <tr key={entry._id}>
+            <tr key={entry.id}>
               <td>{entry.user.username}</td>
               <td>{entry.score}</td>
             </tr>

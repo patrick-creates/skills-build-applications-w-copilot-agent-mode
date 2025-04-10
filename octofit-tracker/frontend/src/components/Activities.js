@@ -22,7 +22,7 @@ function Activities() {
         </thead>
         <tbody>
           {activities.map(activity => (
-            <tr key={activity._id}>
+            <tr key={activity.id}>
               <td>{activity.activity_type}</td>
               <td>{activity.duration}</td>
             </tr>
